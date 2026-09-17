@@ -26,7 +26,7 @@ STEP 14: In the definition of the finish procedure declare the global variables.
 STEP 17: Stop the program.
 
 # PROGRAM:
-
+```
 
 #Create a simulator object set ns [new Simulator] #Open the nam trace file set nf [open out.nam w]
 $ns namtrace-all $nf #Define a 'finish' procedure proc finish {}
@@ -56,8 +56,10 @@ $ns at 4.5 "$cbr0 stop"
 #Call the finish procedure after 5 seconds of simulation time
 $ns at 5.0 "finish"
 $ns run
- 
+ ```
 # OUTPUT
+
+<img width="868" height="1160" alt="image" src="https://github.com/user-attachments/assets/80f52617-0aa6-46fe-b516-d776eaf06981" />
 
 
 # RESULT
